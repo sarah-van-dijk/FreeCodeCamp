@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Date with Sarah Survey</title>
+  <link rel="stylesheet" href="datingstyles.css">
+</head>
+<body>
+  <h1 id="title">Date with Sarah Survey</h1>
+  <p id="description">Thank you for taking the time to help me improve my dating skills</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name: <input placeholder="Enter your name here" id="name" type="text" required></input></label>
+      <label id="email-label">Email: <input placeholder="Enter your email here" id="email" type="email" required></input></label>
+      <label id="number-label">Age: <input placeholder="Enter your age (in years) here" id="number" type="number" min="20" max="100"></input></label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">How did you meet Sarah?
+        <select id="dropdown" name="dropdown">
+          <option value="">(Select one)</option>
+          <option value="1">School</option>
+          <option value="2">Work</option>
+          <option value="3">Friends</option>
+          <option value"4">Dating app</option>
+          <option value="5">Other</option>
+        </select>
+       </label>
+    </fieldset>
+    <fieldset>
+      <label name="date-again">Would you go out with Sarah again?</label>
+        <label for="Definitely"><input id="Definitely" type="radio" value="1" name="date-again" class="inline" /> Definitely</label>
+        <label for="Maybe"><input id="Maybe" type="radio" value="2" name="date-again" class="inline" /> Maybe</label>
+        <label for="Not-sure"><input id="Not-sure" type="radio" value="3" name="date-again" class="inline" /> Not sure</label>
+    </fieldset>
+    <fieldset>
+      <label for="improvement" name="inprovement">What could Sarah do to improve her dating skills? (Check all that apply)</label>
+        <div><input id="inprovement" type="checkbox" class="inline" value="1">Talk less about her cat</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="2">Have more funny jokes on hand</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="3">Be more spontaneous</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="4">Use more memes when communicating</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="5">Reply to texts sooner</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="6">Use less emojis when texting</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="7">Give me a second chance</input></div>
+        <div><input id="inprovement" type="checkbox" class="inline" value="8">Nothing, Sarah is perfect</input></div>
+    </fieldset>  
+    <fieldset>
+       <label for="comment">Any other comments or suggestions:
+          <textarea id="comment" name="comment" rows="4" cols="30" placeholder="Sarah is the most beautiful women I have ever met..."></textarea>
+        </label>
+      </fieldset>
+  <input id="submit" value="Submit" type="submit"></input>
+  </form>
+</body>
+</html>
