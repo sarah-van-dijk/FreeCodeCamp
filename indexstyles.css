@@ -35,8 +35,11 @@ a:visited {
       text-decoration: none;
   }
 
-  @media only screen and (max-width: 600px) {
-    html {
+  @media only screen and (max-width: 400px) {
+    header {
       font-size: 50%;
+    }
+    #list {
+        font-size: 50%;
     }
   }
