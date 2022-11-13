@@ -12,13 +12,11 @@ html {
 header {
     font-weight: bolder;
     font-size: 70px;
-    width: 100%;
 }
 
 #list {
     font-size: 30px;
     list-style: none;
-    width: 100%;
     padding: 0;
 }
 
