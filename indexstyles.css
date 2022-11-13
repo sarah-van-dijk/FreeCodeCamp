@@ -37,9 +37,9 @@ a:visited {
 
   @media only screen and (max-width: 400px) {
     header {
-      font-size: 50%;
+      font-size: 20px;
     }
     #list {
-        font-size: 50%;
+        font-size: 7px;
     }
   }
